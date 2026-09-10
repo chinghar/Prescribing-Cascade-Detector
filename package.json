@@ -1,0 +1,22 @@
+{
+  "name": "cascade-detector",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "packages/cascade-rules",
+    "packages/cascade-engine",
+    "packages/cascade-validate",
+    "apps/web"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace=packages/cascade-rules && npm run build --workspace=packages/cascade-engine && npm run build --workspace=packages/cascade-validate && npm run build --workspace=apps/web",
+    "test": "vitest run",
+    "validate": "npm run validate --workspace=packages/cascade-validate",
+    "dev": "npm run dev --workspace=apps/web"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.4"
+  }
+}

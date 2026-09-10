@@ -1,0 +1,19 @@
+{
+  "name": "@cascade-detector/cascade-validate",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "validate": "tsc -p tsconfig.json && node dist/run.js",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@cascade-detector/cascade-engine": "*",
+    "@cascade-detector/cascade-rules": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.4"
+  }
+}
