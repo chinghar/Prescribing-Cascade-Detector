@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predev": "npm run build:deps",
     "dev": "next dev",
+    "build:deps": "tsc -p ../../packages/cascade-rules/tsconfig.json && tsc -p ../../packages/cascade-engine/tsconfig.json",
+    "prebuild": "npm run build:deps",
     "build": "next build",
     "start": "next start",
     "test": "vitest run",
