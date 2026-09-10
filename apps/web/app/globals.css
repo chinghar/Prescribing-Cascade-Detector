@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  /* Base font size >= 18px, per the accessibility spec (audience is 65+). */
+  font-size: 18px;
+}
+
+body {
+  background-color: #f4f6f9;
+  color: #111111;
+}
+
+/* Visible focus ring on every interactive element — never rely on the
+   browser default alone, and never suppress it. */
+:focus-visible {
+  outline: 3px solid #0b3d91;
+  outline-offset: 2px;
+}
+
+/* Minimum tap target size for every interactive control. */
+button,
+a,
+input,
+select,
+[role="button"] {
+  min-height: 48px;
+}

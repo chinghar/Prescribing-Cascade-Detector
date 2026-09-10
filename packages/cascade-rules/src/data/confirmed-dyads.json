@@ -1,0 +1,83 @@
+[
+  {
+    "status": "confirmed",
+    "id": "ccb-oedema-diuretic",
+    "drugA": { "atc": ["C08"], "label": "Calcium channel blocker" },
+    "adverseEffect": {
+      "icpc2": "K07",
+      "label": "Peripheral oedema",
+      "patientFacingLabel": "swelling in the legs, ankles, or feet"
+    },
+    "drugB": { "atc": ["C03"], "label": "Diuretic" },
+    "exclusions": [
+      {
+        "type": "condition",
+        "label": "Diagnosis of heart failure",
+        "patientQuestion": "Have you been diagnosed with heart failure?"
+      },
+      {
+        "type": "prior_history",
+        "label": "Prior history of peripheral oedema (before starting the calcium channel blocker)",
+        "patientQuestion": "Did you have swelling in your legs, ankles, or feet before you started this medication?"
+      }
+    ],
+    "evidence": {
+      "source": "ThinkCascades",
+      "citation": "ThinkCascades Delphi-consensus prescribing-cascade list, CCB→diuretic dyad; population prevalence 2.6% reported in national older-adult prescribing data. Full bibliographic citation (authors/journal/year/DOI) not independently verified against the source publication — see README.",
+      "populationPrevalence": 0.026
+    },
+    "confidenceTier": "high"
+  },
+  {
+    "status": "confirmed",
+    "id": "diuretic-incontinence-oab",
+    "drugA": { "atc": ["C03"], "label": "Diuretic" },
+    "adverseEffect": {
+      "icpc2": "U02, U04",
+      "label": "Urinary frequency / urgency / incontinence",
+      "patientFacingLabel": "needing to urinate more often, urgently, or having trouble holding it"
+    },
+    "drugB": { "atc": ["G04BD"], "label": "Overactive bladder medication" },
+    "exclusions": [
+      {
+        "type": "prior_history",
+        "label": "History of urinary incontinence (before starting the diuretic)",
+        "patientQuestion": "Did you have trouble with urinary frequency, urgency, or incontinence before you started this medication?"
+      }
+    ],
+    "evidence": {
+      "source": "ThinkCascades",
+      "citation": "ThinkCascades Delphi-consensus prescribing-cascade list, diuretic→overactive-bladder-agent dyad; population prevalence 0.6% reported in national older-adult prescribing data. Full bibliographic citation (authors/journal/year/DOI) not independently verified against the source publication — see README.",
+      "populationPrevalence": 0.006
+    },
+    "confidenceTier": "high"
+  },
+  {
+    "status": "confirmed",
+    "id": "antipsychotic-eps-antiparkinsonian",
+    "drugA": { "atc": ["N05A"], "label": "Antipsychotic" },
+    "adverseEffect": {
+      "label": "Extrapyramidal symptoms",
+      "patientFacingLabel": "tremor, stiffness, or slowed movement"
+    },
+    "drugB": { "atc": ["N04"], "label": "Antiparkinsonian agent" },
+    "exclusions": [
+      {
+        "type": "condition",
+        "label": "Diagnosis of Parkinson's disease",
+        "patientQuestion": "Have you been diagnosed with Parkinson's disease?"
+      },
+      {
+        "type": "prior_history",
+        "label": "Prior history of tremor, stiffness, or slowed movement (before starting the antipsychotic)",
+        "patientQuestion": "Did you have tremor, stiffness, or slowed movement before you started this medication?"
+      }
+    ],
+    "evidence": {
+      "source": "PIPC",
+      "citation": "PIPC international expert Delphi-consensus prescribing-cascade list, antipsychotic→antiparkinsonian-agent dyad; population prevalence 0.4% reported in national older-adult prescribing data. Full bibliographic citation (authors/journal/year/DOI) not independently verified against the source publication, and list attribution (ThinkCascades vs. PIPC) for this specific dyad is a best-effort inference, not confirmed — see README.",
+      "populationPrevalence": 0.004
+    },
+    "confidenceTier": "moderate"
+  }
+]

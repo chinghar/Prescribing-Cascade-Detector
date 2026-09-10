@@ -1,0 +1,265 @@
+{
+  "amlodipine": {
+    "rxcui": "17767",
+    "atcClasses": [
+      "C08CA"
+    ],
+    "matchedName": "amlodipine"
+  },
+  "nifedipine": {
+    "rxcui": "7417",
+    "atcClasses": [
+      "C08CA"
+    ],
+    "matchedName": "nifedipine"
+  },
+  "felodipine": {
+    "rxcui": "4316",
+    "atcClasses": [
+      "C08CA"
+    ],
+    "matchedName": "felodipine"
+  },
+  "diltiazem": {
+    "rxcui": "3443",
+    "atcClasses": [
+      "C05AE",
+      "C08DB"
+    ],
+    "matchedName": "diltiazem"
+  },
+  "verapamil": {
+    "rxcui": "11170",
+    "atcClasses": [
+      "C08DA"
+    ],
+    "matchedName": "verapamil"
+  },
+  "norvasc": {
+    "rxcui": "58927",
+    "atcClasses": [
+      "C08CA"
+    ],
+    "matchedName": "norvasc"
+  },
+  "furosemide": {
+    "rxcui": "4603",
+    "atcClasses": [
+      "C03CA"
+    ],
+    "matchedName": "furosemide"
+  },
+  "hydrochlorothiazide": {
+    "rxcui": "5487",
+    "atcClasses": [
+      "C03AA"
+    ],
+    "matchedName": "hydrochlorothiazide"
+  },
+  "chlorthalidone": {
+    "rxcui": "2409",
+    "atcClasses": [
+      "C03BA"
+    ],
+    "matchedName": "chlorthalidone"
+  },
+  "bumetanide": {
+    "rxcui": "1808",
+    "atcClasses": [
+      "C03CA"
+    ],
+    "matchedName": "bumetanide"
+  },
+  "torsemide": {
+    "rxcui": "38413",
+    "atcClasses": [
+      "C03CA"
+    ],
+    "matchedName": "torsemide"
+  },
+  "lasix": {
+    "rxcui": "202991",
+    "atcClasses": [
+      "C03CA"
+    ],
+    "matchedName": "lasix"
+  },
+  "oxybutynin": {
+    "rxcui": "32675",
+    "atcClasses": [
+      "G04BD"
+    ],
+    "matchedName": "oxybutynin"
+  },
+  "tolterodine": {
+    "rxcui": "119565",
+    "atcClasses": [
+      "G04BD"
+    ],
+    "matchedName": "tolterodine"
+  },
+  "solifenacin": {
+    "rxcui": "322167",
+    "atcClasses": [
+      "G04BD"
+    ],
+    "matchedName": "solifenacin"
+  },
+  "mirabegron": {
+    "rxcui": "1300786",
+    "atcClasses": [
+      "G04BD"
+    ],
+    "matchedName": "mirabegron"
+  },
+  "ditropan": {
+    "rxcui": "151651",
+    "atcClasses": [],
+    "matchedName": "ditropan"
+  },
+  "vesicare": {
+    "rxcui": "539812",
+    "atcClasses": [
+      "G04BD"
+    ],
+    "matchedName": "vesicare"
+  },
+  "haloperidol": {
+    "rxcui": "5093",
+    "atcClasses": [
+      "N05AD"
+    ],
+    "matchedName": "haloperidol"
+  },
+  "risperidone": {
+    "rxcui": "35636",
+    "atcClasses": [
+      "N05AX"
+    ],
+    "matchedName": "risperidone"
+  },
+  "olanzapine": {
+    "rxcui": "61381",
+    "atcClasses": [
+      "N05AH"
+    ],
+    "matchedName": "olanzapine"
+  },
+  "quetiapine": {
+    "rxcui": "51272",
+    "atcClasses": [
+      "N05AH"
+    ],
+    "matchedName": "quetiapine"
+  },
+  "aripiprazole": {
+    "rxcui": "89013",
+    "atcClasses": [
+      "N05AX"
+    ],
+    "matchedName": "aripiprazole"
+  },
+  "haldol": {
+    "rxcui": "151839",
+    "atcClasses": [
+      "N05AD"
+    ],
+    "matchedName": "haldol"
+  },
+  "trihexyphenidyl": {
+    "rxcui": "10811",
+    "atcClasses": [
+      "N04AA"
+    ],
+    "matchedName": "trihexyphenidyl"
+  },
+  "benztropine": {
+    "rxcui": "1424",
+    "atcClasses": [
+      "N04AC"
+    ],
+    "matchedName": "benztropine"
+  },
+  "biperiden": {
+    "rxcui": "1589",
+    "atcClasses": [
+      "N04AA"
+    ],
+    "matchedName": "biperiden"
+  },
+  "cogentin": {
+    "rxcui": "151532",
+    "atcClasses": [],
+    "matchedName": "cogentin"
+  },
+  "lisinopril": {
+    "rxcui": "29046",
+    "atcClasses": [
+      "C09AA"
+    ],
+    "matchedName": "lisinopril"
+  },
+  "metformin": {
+    "rxcui": "6809",
+    "atcClasses": [
+      "A10BA"
+    ],
+    "matchedName": "metformin"
+  },
+  "atorvastatin": {
+    "rxcui": "83367",
+    "atcClasses": [
+      "C10AA"
+    ],
+    "matchedName": "atorvastatin"
+  },
+  "levothyroxine": {
+    "rxcui": "10582",
+    "atcClasses": [],
+    "matchedName": "levothyroxine"
+  },
+  "omeprazole": {
+    "rxcui": "7646",
+    "atcClasses": [
+      "A02BC"
+    ],
+    "matchedName": "omeprazole"
+  },
+  "aspirin": {
+    "rxcui": "1191",
+    "atcClasses": [
+      "A01AD",
+      "B01AC",
+      "N02BA"
+    ],
+    "matchedName": "aspirin"
+  },
+  "metoprolol": {
+    "rxcui": "6918",
+    "atcClasses": [
+      "C07AB"
+    ],
+    "matchedName": "metoprolol"
+  },
+  "warfarin": {
+    "rxcui": "11289",
+    "atcClasses": [
+      "B01AA"
+    ],
+    "matchedName": "warfarin"
+  },
+  "gabapentin": {
+    "rxcui": "25480",
+    "atcClasses": [
+      "N02BF"
+    ],
+    "matchedName": "gabapentin"
+  },
+  "sertraline": {
+    "rxcui": "36437",
+    "atcClasses": [
+      "N06AB"
+    ],
+    "matchedName": "sertraline"
+  }
+}

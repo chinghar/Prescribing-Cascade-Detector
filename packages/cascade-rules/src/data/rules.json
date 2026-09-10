@@ -1,0 +1,539 @@
+[
+  {
+    "status": "confirmed",
+    "id": "ccb-oedema-diuretic",
+    "drugA": {
+      "atc": [
+        "C08"
+      ],
+      "label": "Calcium channel blocker"
+    },
+    "adverseEffect": {
+      "icpc2": "K07",
+      "label": "Peripheral oedema",
+      "patientFacingLabel": "swelling in the legs, ankles, or feet"
+    },
+    "drugB": {
+      "atc": [
+        "C03"
+      ],
+      "label": "Diuretic"
+    },
+    "exclusions": [
+      {
+        "type": "condition",
+        "label": "Diagnosis of heart failure",
+        "patientQuestion": "Have you been diagnosed with heart failure?"
+      },
+      {
+        "type": "prior_history",
+        "label": "Prior history of peripheral oedema (before starting the calcium channel blocker)",
+        "patientQuestion": "Did you have swelling in your legs, ankles, or feet before you started this medication?"
+      }
+    ],
+    "evidence": {
+      "source": "ThinkCascades",
+      "citation": "ThinkCascades Delphi-consensus prescribing-cascade list, CCB→diuretic dyad; population prevalence 2.6% reported in national older-adult prescribing data. Full bibliographic citation (authors/journal/year/DOI) not independently verified against the source publication — see README.",
+      "populationPrevalence": 0.026
+    },
+    "confidenceTier": "high"
+  },
+  {
+    "status": "confirmed",
+    "id": "diuretic-incontinence-oab",
+    "drugA": {
+      "atc": [
+        "C03"
+      ],
+      "label": "Diuretic"
+    },
+    "adverseEffect": {
+      "icpc2": "U02, U04",
+      "label": "Urinary frequency / urgency / incontinence",
+      "patientFacingLabel": "needing to urinate more often, urgently, or having trouble holding it"
+    },
+    "drugB": {
+      "atc": [
+        "G04BD"
+      ],
+      "label": "Overactive bladder medication"
+    },
+    "exclusions": [
+      {
+        "type": "prior_history",
+        "label": "History of urinary incontinence (before starting the diuretic)",
+        "patientQuestion": "Did you have trouble with urinary frequency, urgency, or incontinence before you started this medication?"
+      }
+    ],
+    "evidence": {
+      "source": "ThinkCascades",
+      "citation": "ThinkCascades Delphi-consensus prescribing-cascade list, diuretic→overactive-bladder-agent dyad; population prevalence 0.6% reported in national older-adult prescribing data. Full bibliographic citation (authors/journal/year/DOI) not independently verified against the source publication — see README.",
+      "populationPrevalence": 0.006
+    },
+    "confidenceTier": "high"
+  },
+  {
+    "status": "confirmed",
+    "id": "antipsychotic-eps-antiparkinsonian",
+    "drugA": {
+      "atc": [
+        "N05A"
+      ],
+      "label": "Antipsychotic"
+    },
+    "adverseEffect": {
+      "label": "Extrapyramidal symptoms",
+      "patientFacingLabel": "tremor, stiffness, or slowed movement"
+    },
+    "drugB": {
+      "atc": [
+        "N04"
+      ],
+      "label": "Antiparkinsonian agent"
+    },
+    "exclusions": [
+      {
+        "type": "condition",
+        "label": "Diagnosis of Parkinson's disease",
+        "patientQuestion": "Have you been diagnosed with Parkinson's disease?"
+      },
+      {
+        "type": "prior_history",
+        "label": "Prior history of tremor, stiffness, or slowed movement (before starting the antipsychotic)",
+        "patientQuestion": "Did you have tremor, stiffness, or slowed movement before you started this medication?"
+      }
+    ],
+    "evidence": {
+      "source": "PIPC",
+      "citation": "PIPC international expert Delphi-consensus prescribing-cascade list, antipsychotic→antiparkinsonian-agent dyad; population prevalence 0.4% reported in national older-adult prescribing data. Full bibliographic citation (authors/journal/year/DOI) not independently verified against the source publication, and list attribution (ThinkCascades vs. PIPC) for this specific dyad is a best-effort inference, not confirmed — see README.",
+      "populationPrevalence": 0.004
+    },
+    "confidenceTier": "moderate"
+  },
+  {
+    "status": "unverified",
+    "id": "thinkcascades-stub-01",
+    "sourceNeeded": "ThinkCascades Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "thinkcascades-stub-02",
+    "sourceNeeded": "ThinkCascades Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "thinkcascades-stub-03",
+    "sourceNeeded": "ThinkCascades Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "thinkcascades-stub-04",
+    "sourceNeeded": "ThinkCascades Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "thinkcascades-stub-05",
+    "sourceNeeded": "ThinkCascades Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "thinkcascades-stub-06",
+    "sourceNeeded": "ThinkCascades Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "thinkcascades-stub-07",
+    "sourceNeeded": "ThinkCascades Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-01",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-02",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-03",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-04",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-05",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-06",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-07",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-08",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-09",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-10",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-11",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-12",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-13",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-14",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-15",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-16",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-17",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-18",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-19",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-20",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-21",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-22",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-23",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-24",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-25",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-26",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-27",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-28",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-29",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-30",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-31",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-32",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-33",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-34",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-35",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-36",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-37",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-38",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-39",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-40",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-41",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-42",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-43",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-44",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-45",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-46",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-47",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-48",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-49",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-50",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-51",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-52",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-53",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-54",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-55",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-56",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-57",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-58",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-59",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-60",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-61",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-62",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-63",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  },
+  {
+    "status": "unverified",
+    "id": "pipc-stub-64",
+    "sourceNeeded": "PIPC Delphi-consensus prescribing-cascade list — dyad not yet transcribed from the source publication.",
+    "note": "Placeholder only. Do not populate drugA/adverseEffect/drugB/ATC codes until the specific dyad has been read from the cited source."
+  }
+]
